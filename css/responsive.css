@@ -1,0 +1,486 @@
+/* Media Query */
+
+/* Smartphone */
+@media (min-width: 320px) and (max-width: 480px) {
+  /* code start */
+  header .navbar .nav-item .nav-link {
+    color: #0c63b2;
+  }
+  header .logo {
+    width: 60%;
+  }
+  header .btn-call {
+    background: #0c63b2;
+    color: white;
+    margin: 0;
+  }
+  .collapse .btn-call:hover,
+  .collapse .btn-call:focus {
+    border: 1.5px solid #0c63b2;
+  }
+  .banner {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .banner h1 {
+    font-size: 30px;
+    margin-top: 35px;
+  }
+  .banner .btn-get {
+    margin-bottom: 15px;
+  }
+  .feature {
+    padding: 0px !important;
+  }
+  .we-do h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .we-do p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .get-started {
+    padding: 0px !important;
+  }
+  .get-started h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .process {
+    padding-bottom: 0 !important;
+  }
+  .process h1 {
+    font-size: 30px;
+  }
+  .process .box {
+    margin-bottom: 55px;
+  }
+  .serve {
+    padding: 0 !important;
+  }
+  .serve h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .serve .box {
+    margin-bottom: 30px;
+  }
+  .faq h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .footer {
+    padding: 0 !important;
+  }
+  .footer .col1 {
+    text-align: center;
+  }
+  .footer h1 {
+    font-size: 30px;
+  }
+  .footer .btn-get {
+    margin-bottom: 15px;
+  }
+  .copyright {
+    text-align: start;
+  }
+
+  .copyright .privacy {
+    display: flow-root;
+  }
+  .copyright .privacy h5 {
+    color: #414141;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .copyright .privacy span {
+    color: #414141;
+  }
+  .copyright .privacy .btn-call {
+    background: #0c63b2;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
+
+  .copyright .policy a {
+    font-size: 12px;
+    color: white;
+  }
+  /* code end */
+}
+
+/* Galaxy Fold */
+@media (min-width: 280px) and (max-width: 319px) {
+  /* code start */
+
+  header .navbar .nav-item .nav-link {
+    color: #0c63b2;
+  }
+  header .logo {
+    width: 45%;
+  }
+  header .btn-call {
+    background: #0c63b2;
+    color: white;
+    margin: 0;
+  }
+  .collapse .btn-call:hover,
+  .collapse .btn-call:focus {
+    border: 1.5px solid #0c63b2;
+  }
+  .banner {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .banner h1 {
+    font-size: 25px;
+  }
+  .banner .btn-get {
+    margin-bottom: 15px;
+  }
+  .feature {
+    padding: 0px !important;
+  }
+  .we-do h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .we-do p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .get-started {
+    padding: 0px !important;
+  }
+  .get-started h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .process {
+    padding-bottom: 0 !important;
+  }
+  .process h1 {
+    font-size: 25px;
+  }
+  .process .box {
+    margin-bottom: 55px;
+  }
+  .serve {
+    padding: 0 !important;
+  }
+  .serve h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .serve .box {
+    margin-bottom: 30px;
+  }
+  .faq h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .footer {
+    padding: 0 !important;
+  }
+  .footer .col1 {
+    text-align: center;
+  }
+  .footer h1 {
+    font-size: 25px;
+  }
+  .footer .btn-get {
+    margin-bottom: 15px;
+  }
+  .copyright {
+    text-align: start;
+  }
+
+  .copyright .privacy {
+    display: flow-root;
+  }
+  .copyright .privacy h5 {
+    color: #414141;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .copyright .privacy span {
+    color: #414141;
+  }
+  .copyright .privacy .btn-call {
+    background: #0c63b2;
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding: 8px 10px;
+    margin-top: 10px;
+  }
+
+  .copyright .policy a {
+    font-size: 8px;
+    color: white;
+  }
+
+  .feature h2 {
+    font-size: 15px;
+  }
+  .feature p {
+    font-size: 12px;
+  }
+  .get-started h2 {
+    font-size: 15px;
+  }
+  .process .box p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  /* code end */
+}
+
+/* Low Resolution Tablets, Mobiles (Landscape) */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* code start */
+  header .navbar .nav-item .nav-link {
+    color: #0c63b2;
+  }
+  header .logo {
+    width: 60%;
+  }
+  header .btn-call {
+    background: #0c63b2;
+    color: white;
+    margin: 0;
+  }
+  .collapse .btn-call:hover,
+  .collapse .btn-call:focus {
+    border: 1.5px solid #0c63b2;
+  }
+  .banner {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner .btn-get {
+    margin-bottom: 15px;
+  }
+  .feature {
+    padding: 0px !important;
+  }
+  .we-do h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .we-do p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .get-started {
+    padding: 0px !important;
+  }
+  .get-started h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .process {
+    padding-bottom: 0 !important;
+  }
+  .process h1 {
+    font-size: 30px;
+  }
+  .process .box {
+    margin-bottom: 55px;
+  }
+  .serve {
+    padding: 0 !important;
+  }
+  .serve h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .serve .box {
+    margin-bottom: 30px;
+  }
+  .faq h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .footer {
+    padding: 0 !important;
+  }
+  .footer .col1 {
+    text-align: center;
+  }
+  .footer h1 {
+    font-size: 30px;
+  }
+  .footer .btn-get {
+    margin-bottom: 15px;
+  }
+  .copyright {
+    text-align: start;
+  }
+
+  .copyright .privacy {
+    display: flow-root;
+  }
+  .copyright .privacy h5 {
+    color: #414141;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .copyright .privacy span {
+    color: #414141;
+  }
+  .copyright .privacy .btn-call {
+    background: #0c63b2;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
+
+  .copyright .policy a {
+    font-size: 12px;
+    color: white;
+  }
+  /* code end */
+}
+
+/* Tablets, Ipads (portrait) */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* code start */
+  header .navbar .nav-item .nav-link {
+    color: #0c63b2;
+  }
+  header .logo {
+    width: 60%;
+  }
+  header .btn-call {
+    background: #0c63b2;
+    color: white;
+    margin: 0;
+  }
+  .collapse .btn-call:hover,
+  .collapse .btn-call:focus {
+    border: 1.5px solid #0c63b2;
+  }
+  .banner {
+    margin-top: 60px;
+  }
+  .banner h1 {
+    font-size: 30px;
+    margin-top: 35px;
+  }
+  .banner .btn-get {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+  }
+  .feature {
+    padding: 0px !important;
+  }
+  .we-do h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .we-do p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .get-started {
+    padding: 0px !important;
+  }
+  .get-started h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .process {
+    padding-bottom: 0 !important;
+  }
+  .process h1 {
+    font-size: 30px;
+  }
+  .process .box {
+    margin-bottom: 55px;
+  }
+  .serve {
+    padding: 0 !important;
+  }
+  .serve h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .serve .box {
+    margin-bottom: 30px;
+  }
+  .faq h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .footer {
+    padding: 0 !important;
+  }
+
+  .footer h1 {
+    font-size: 28px;
+  }
+  .footer .btn-get {
+    margin-bottom: 15px;
+  }
+  .copyright {
+    text-align: start;
+  }
+  .copyright p {
+    font-size: 12px;
+  }
+  .copyright .privacy {
+    display: flow-root;
+  }
+  .copyright .privacy h5 {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .copyright .privacy span {
+    color: white;
+  }
+  .copyright .privacy .btn-call {
+    background: #0c63b2;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
+
+  .copyright .policy a {
+    font-size: 12px;
+    color: white;
+  }
+  .process .box p {
+    font-size: 11px;
+    line-height: 22px;
+  }
+  .process .box .serial {
+    left: 33%;
+  }
+  .serve .box li {
+    font-size: 10px;
+  }
+  /* code end */
+}
+
+/* Laptops, Desktops*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* code start */
+
+  /* code end */
+}
